@@ -37,7 +37,7 @@ module.exports = (sequelize, DataTypes) => {
     {
       sequelize,
       modelName: "Cart",
-      tableName: "Carts", // matches migration table name
+      tableName: "carts", // matches migration table name
       timestamps: true,
     }
   );
